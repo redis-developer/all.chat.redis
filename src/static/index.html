@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>all.chat.redis</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+</head>
+<body>
+
+<div class="jsdom">
+
+    <div class="row" style="display: none;">
+        <div class="room">
+            <div class="sidebar">
+                <div class="image" style="background: url('/static/demo/1.png')"></div>
+                <div class="topic">room topic</div>
+            </div>
+            <div class="messages">
+                    <div class="text"><span>username</span>: text text text</div>
+            </div><!-- /messages -->
+            <input class="new_message" type="text" />
+        </div><!-- /room -->
+    </div><!-- /row -->
+
+</div><!-- /jsdom -->
+
+<div class="register">
+    <input id="username" type="text" placeholder="username" />
+    <input id="password" type="password" placeholder="password" />
+    <div>Register</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@multiavatar/multiavatar/multiavatar.min.js"></script>
+
+<script src="/static/all.chat.js"></script>
+</body>
+</html>

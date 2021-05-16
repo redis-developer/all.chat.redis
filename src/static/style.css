@@ -1,0 +1,31 @@
+html, body{margin: 0;padding: 0;font-family: 'Consolas', sans-serif;font-size: 12px;line-height: 20px;}
+
+input{margin: 0;padding: 0;}
+
+input:focus{outline-width: 0;}
+
+body{background: url('/static/so-white.png')}
+
+.row{display: flex;justify-content: center;}
+
+.room{padding: 2px;overflow: hidden;margin: 10px;border-bottom: 1px solid #e5e5e5;position: relative;}
+.room:hover{}
+.room .sidebar{width: 110px;position: relative;border-radius: 5px;overflow: hidden;float: left;margin-right: 5px;}
+    .room .topic{background: #4caf50;color: white;padding: 4px;position: absolute;top: 0;left: 0;width: 100%;box-sizing: border-box;font-weight: bold;}
+    .room .image{width: 110px;height: 335px;}
+
+.messages{float: left;width: 329px;height: 335px;overflow: auto;padding-bottom: 10px;box-sizing: border-box;}
+.messages > div{margin-bottom: 10px;}
+.messages > div:hover{background: #efefef;}
+
+.messages svg{width: 20px;height: 20px;margin-right: 5px;display: inline-block;}
+.messages .text{}
+.messages .text span{font-weight: bold;}
+.messages .new_message{}
+
+.new_message{position: absolute;left: 115px;bottom: 2px;height: 20px;width: 304px;line-height: 20px;border: none;background: #00bcd41f;margin: 0;padding: 0 5px;}
+    .new_message:focus{background: #03a9f4;color: white;}
+
+.register{width: 100%;height: 100px;position: absolute;top: 0;left: 0;text-align: center;background: #ffeb3b;padding-top: 25px;display: none;}
+    .register input{height: 60px;line-height: 60px;width: 500px;padding: 5px;box-sizing: border-box;}
+    .register div{cursor: pointer;display: inline-block;color: white;background: #03a9f4;height: 60px;line-height: 60px;width: 100px;}
