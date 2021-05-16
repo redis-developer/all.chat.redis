@@ -14,7 +14,8 @@ body{background: url('/static/so-white.png')}
     .room .topic{background: #4caf50;color: white;padding: 4px;position: absolute;top: 0;left: 0;width: 100%;box-sizing: border-box;font-weight: bold;}
     .room .image{width: 110px;height: 335px;}
 
-.messages{float: left;width: 329px;height: 335px;overflow: auto;padding-bottom: 10px;box-sizing: border-box;}
+.messages{float: left;width: 329px;height: 335px;overflow: auto;box-sizing: border-box;}
+.messages:after{content: '';display: block;height: 10px;}
 .messages > div{margin-bottom: 10px;}
 .messages > div:hover{background: #efefef;}
 
