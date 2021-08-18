@@ -18,13 +18,13 @@
         }
     ],
     "language": ["JavaScript"], 
-    "redis_commands": ["get", "hsetnx", "hincrby", "zadd", "call"], 
+    "redis_commands": ["GET", "HSETNX", "HINCRBY", "ZADD", "CALL"], 
     "redis_features": [],
     "redis_modules": ["RedisGears"], 
     "app_image_urls": ["https://raw.githubusercontent.com/redis-developer/all.chat.redis/main/src/static/demo/screen_1.png"
     ], 
     "youtube_url": "https://www.youtube.com/watch?v=aR12fVcib6I", 
     "special_tags": ["Hackathon"], 
-    "verticals": ["Technology"], 
+    "verticals": ["Others"], 
     "markdown": "https://raw.githubusercontent.com/redis-developer/all.chat.redis/main/README.md" 
 }
