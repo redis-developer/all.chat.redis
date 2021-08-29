@@ -1,7 +1,7 @@
 {
     "app_name": "all.chat.redis",  
     "description": "Node.js Demo Chat App powered with Socket.io + Redis Pub/Sub + RedisGears to Re-generate the JSON snapshot cache.", 
-    "rank": "341", 
+    "rank": "400", 
     "type": "Full App", 
     "contributed_by": "Community", 
     "repo_url": "https://github.com/redis-developer/all.chat.redis", 
